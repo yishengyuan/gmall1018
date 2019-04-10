@@ -1,0 +1,16 @@
+*.iml
+/.idea
+/gmall-order-web/mvnw
+/gmall-order-web/mvnw.cmd
+/gmall-interface/target/classes/com/shuosen/gmall/service/*.class
+/gmall-interface/target
+/gmall-bean/target/classes/com/shuosen/gmall/bean/*.class
+/gmall-web-util/target
+/gmall-user-manager/mvnw
+/gmall-bean/target
+/gmall-user-manager/*.cmd
+/gmall-service-util/target/*.jar
+/gmall-service-util/target/maven-status/maven-compiler-plugin/compile/default-compile/*.lst
+/gmall-user-manager/.mvn/wrapper
+wrapper
+target
