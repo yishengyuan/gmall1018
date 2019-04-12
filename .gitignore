@@ -14,3 +14,7 @@
 /gmall-user-manager/.mvn/wrapper
 wrapper
 target
+/gmall-manage-service/mvnw
+/gmall-manage-web/mvnw
+/gmall-manage-web/mvnw.cmd
+/gmall-manage-service/mvnw.cmd
