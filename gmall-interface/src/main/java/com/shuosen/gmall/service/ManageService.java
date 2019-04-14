@@ -21,4 +21,15 @@ public interface ManageService {
 //     List<BaseAttrValue> getAttrValueList(String attrId);
      //通过属性id查询平台属性值集合
      BaseAttrInfo getAttrInfo(String attrId);
+
+     //获取所有的商品spu信息
+     List<SpuInfo> getSpuInfoList(SpuInfo spuInfo);
+
+     //查询基本销售属性表
+     List<BaseSaleAttr> getBaseSaleAttrList();
+
+
+     void  saveSpuInfo(SpuInfo spuInfo);
+
+
 }
