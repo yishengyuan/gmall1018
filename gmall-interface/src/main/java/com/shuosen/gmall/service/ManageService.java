@@ -30,6 +30,7 @@ public interface ManageService {
 
 
      void  saveSpuInfo(SpuInfo spuInfo);
-
+     //
+     List<SpuImage> getSpuImageList(String spuId);
 
 }

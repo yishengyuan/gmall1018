@@ -65,9 +65,7 @@ public class ManageServiceImpl implements ManageService {
 
     @Override
     public List<BaseAttrInfo> getAttrList(String catalog3Id) {
-        BaseAttrInfo baseAttrInfo = new BaseAttrInfo();
-        baseAttrInfo.setCatalog3Id(catalog3Id);
-        return baseAttrInfoMapper.select(baseAttrInfo);
+         return baseAttrInfoMapper.getBaseAttrInfoListByCatalog3Id(Long.parseLong(catalog3Id));
     }
 
     @Override
@@ -165,6 +163,13 @@ public class ManageServiceImpl implements ManageService {
             }
         }
 
+    }
+
+    @Override
+    public List<SpuImage> getSpuImageList(String spuId) {
+        SpuImage image = new SpuImage();
+        image.setSpuId(spuId);
+        return spuImageMapper.select(image);
     }
 
 //    @Override
