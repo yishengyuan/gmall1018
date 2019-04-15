@@ -19,7 +19,7 @@ public class SpuManageController {
     private ManageService manageService;
 
 
-    @RequestMapping
+    @RequestMapping("spuList")
     @ResponseBody
     public List<SpuInfo> getSpuList(SpuInfo spuInfo) {
         List<SpuInfo> spuInfoList = manageService.getSpuInfoList(spuInfo);
