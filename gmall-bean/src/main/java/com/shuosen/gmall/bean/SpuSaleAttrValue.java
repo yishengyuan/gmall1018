@@ -2,10 +2,7 @@ package com.shuosen.gmall.bean;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /***
@@ -26,4 +23,9 @@ public class SpuSaleAttrValue implements Serializable {
 
     @Column
     private String  saleAttrValueName ;
+
+    @Transient
+    String isChecked;
+
+
 }

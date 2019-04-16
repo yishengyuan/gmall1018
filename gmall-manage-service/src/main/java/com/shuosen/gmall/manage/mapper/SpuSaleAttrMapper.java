@@ -8,4 +8,7 @@ import java.util.List;
 public interface SpuSaleAttrMapper extends Mapper<SpuSaleAttr> {
 
     List<SpuSaleAttr> selectSpuSaleAttrList(Long spuId);
+
+    //
+    List<SpuSaleAttr> selectSpuSaleAttrListCheckBySku(String skuId, String spuId);
 }

@@ -16,6 +16,10 @@
         <module>../gmall-service-util</module>
         <module>../gmall-web-util</module>
         <module>../gmall-order-web</module>
+        <module>../gmall-manage-service</module>
+        <module>../gmall-item-web</module>
+        <module>../fastdfs-client-java</module>
+        <module>../gmall-manage-web</module>
     </modules>
     <!-- 表示一个父工程-->
     <packaging>pom</packaging>
